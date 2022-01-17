@@ -1,0 +1,19 @@
+afafa@DESKTOP-IHBR4H5 MINGW64 ~ (main)
+$ tracert georgebrown.ca
+
+Tracing route to georgebrown.ca [99.79.139.11]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  192.168.219.1
+  2     *        *        *     Request timed out.
+  3     2 ms     6 ms     3 ms  10.21.71.221
+  4     4 ms     3 ms     3 ms  1.213.12.241
+  5    14 ms     3 ms    19 ms  1.208.178.149
+  6    11 ms     3 ms     4 ms  1.208.146.30
+  7     4 ms     3 ms     4 ms  1.213.115.13
+  8   141 ms   144 ms   142 ms  1.213.150.154
+  9   148 ms   143 ms   142 ms  1.213.115.146
+ 10   157 ms   151 ms   153 ms  99.83.90.206
+ 11   148 ms   145 ms   144 ms  150.222.234.115
+ 12   155 ms   146 ms   144 ms  54.239.102.83
+ 13     *        *        *     Request timed out.
