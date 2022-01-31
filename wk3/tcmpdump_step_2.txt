@@ -1,0 +1,11 @@
+afafa82@DESKTOP-IHBR4H5:~$ sudo tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:23:39.553775 IP DESKTOP-IHBR4H5.51457 > 239.255.255.250.1900: UDP, length 101
+03:23:39.554835 IP 172.20.3.150.52625 > DESKTOP-IHBR4H5.domain: 40183+ PTR? 250.255.255.239.in-addr.arpa. (46)
+03:23:39.561645 IP DESKTOP-IHBR4H5.mdns > 224.0.0.251.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+03:23:39.562471 IP6 DESKTOP-IHBR4H5.mdns > ff02::fb.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+03:23:40.574425 IP DESKTOP-IHBR4H5.mdns > 224.0.0.251.mdns: 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+5 packets captured
+58 packets received by filter
+23 packets dropped by kernel

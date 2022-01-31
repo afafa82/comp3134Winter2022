@@ -1,0 +1,11 @@
+afafa82@DESKTOP-IHBR4H5:~$ sudo tcpdump -D
+1.eth0 [Up, Running]
+2.lo [Up, Running, Loopback]
+3.any (Pseudo-device that captures on all interfaces) [Up, Running]
+4.bluetooth-monitor (Bluetooth Linux Monitor) [none]
+5.nflog (Linux netfilter log (NFLOG) interface) [none]
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface) [none]
+7.dummy0 [none]
+8.tunl0 [none]
+9.sit0 [none]
+10.bond0 [none]

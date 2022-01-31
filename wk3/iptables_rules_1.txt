@@ -1,0 +1,50 @@
+To check to see if it is installed, run the following command:
+NAME
+       iptables/ip6tables — administration tool for IPv4/IPv6 packet filtering and NAT
+
+SYNOPSIS
+       iptables [-t table] {-A|-C|-D} chain rule-specification
+
+       ip6tables [-t table] {-A|-C|-D} chain rule-specification
+
+       iptables [-t table] -I chain [rulenum] rule-specification
+
+       iptables [-t table] -R chain rulenum rule-specification
+
+       iptables [-t table] -D chain rulenum
+
+       iptables [-t table] -S [chain [rulenum]]
+
+       iptables [-t table] {-F|-L|-Z} [chain [rulenum]] [options...]
+
+       iptables [-t table] -N chain
+
+       iptables [-t table] -X [chain]
+
+       iptables [-t table] -P chain target
+
+       iptables [-t table] -E old-chain-name new-chain-name
+
+       rule-specification = [matches...] [target]
+
+       match = -m matchname [per-match-options]
+
+       target = -j targetname [per-target-options]
+
+DESCRIPTION
+       Iptables  and  ip6tables  are  used to set up, maintain, and inspect the tables of IPv4 and IPv6 packet filter
+       rules in the Linux kernel.  Several different tables may be defined.  Each table contains a number of built-in
+       chains and may also contain user-defined chains.
+
+       Each  chain is a list of rules which can match a set of packets.  Each rule specifies what to do with a packet
+       that matches.  This is called a `target', which may be a jump to a user-defined chain in the same table.
+
+View all defined rules of iptables:
+Chain INPUT (policy ACCEPT 14894 packets, 1181K bytes)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain OUTPUT (policy ACCEPT 14 packets, 1568 bytes)
+ pkts bytes target     prot opt in     out     source               destination	
