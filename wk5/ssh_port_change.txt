@@ -1,0 +1,9 @@
+afafa82@DESKTOP-IHBR4H5:~$ sudo service ssh restart
+ * Restarting OpenBSD Secure Shell server sshd
+
+
+afafa@DESKTOP-IHBR4H5 MINGW64 ~ (main)
+$ ssh afafa82@127.0.0.1 -p 2222
+
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 127.0.0.1 port 2222
